@@ -8,7 +8,7 @@
     "Owner": "Fred Hersch",
     "Priority": "P0",
     "DueDate": "2026-10-21",
-    "Status": "In Progress"
+    "Status": "Done"
   },
   {
     "ID": "TECH-02",
@@ -63,7 +63,7 @@
     "Owner": "Roy Munge, Jing Tang",
     "Priority": "P0",
     "DueDate": "2026-11-04",
-    "Status": "Not Started"
+    "Status": "In Progress"
   },
   {
     "ID": "TECH-07",
@@ -74,7 +74,7 @@
     "Owner": "Roy Munge",
     "Priority": "P1",
     "DueDate": "2026-11-10",
-    "Status": "Not Started"
+    "Status": "In Progress"
   },
   {
     "ID": "TECH-08",
@@ -85,7 +85,7 @@
     "Owner": "Jose Costa Teixeira, Roy Munge",
     "Priority": "P1",
     "DueDate": "2026-11-06",
-    "Status": "Not Started"
+    "Status": "In Progress"
   },
   {
     "ID": "TECH-09",
@@ -107,7 +107,7 @@
     "Owner": "Roy Munge, Carl Leitner",
     "Priority": "P2",
     "DueDate": "2026-11-12",
-    "Status": "Not Started"
+    "Status": "In Progress"
   },
   {
     "ID": "TECH-11",
@@ -195,7 +195,7 @@
     "Owner": "Carl Leitner, Garrett Mehl",
     "Priority": "P1",
     "DueDate": "2026-11-10",
-    "Status": "Not Started"
+    "Status": "In Progress"
   },
   {
     "ID": "POL-06",
@@ -270,7 +270,7 @@
     "Title": "Fill updated journey doc columns (policy/technical questions, readiness gaps, Discussion) for J1–J4.1",
     "Scope_Notes": "Sub-task of TECH-01 (All). Before Wed 21 Oct sync; cell text drafted [Nawi technical tracker A1]",
     "Owner": "Roy Munge",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-20",
     "Status": "In progress"
   },
@@ -281,7 +281,7 @@
     "Title": "Fix dated vignette timeline (birth date, 6-month visit, travel date) so test data and schedule rules agree",
     "Scope_Notes": "Sub-task of TECH-03 (All). Coordinate with RR test data Depends on: B1. [Nawi technical tracker A2]",
     "Owner": "Roy Munge",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-20",
     "Status": "Not started"
   },
@@ -292,7 +292,7 @@
     "Title": "Full requirements / technical specification document (production-level requirements even where implementation is mock)",
     "Scope_Notes": "Sub-task of TECH-09 (All). Carl: document at production level Depends on: A1. [Nawi technical tracker A3]",
     "Owner": "Roy Munge",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-23",
     "Status": "Not started"
   },
@@ -303,7 +303,7 @@
     "Title": "IG scaffold on WHO repo: BPMN process diagrams, user stories, terminology, test data, links to DVC / VHL / PCF specs",
     "Scope_Notes": "Sub-task of TECH-09 (All). Agreed 16 Oct; also shown as best-practice workflow documentation Depends on: A3. [Nawi technical tracker A4]",
     "Owner": "Roy Munge, Carl Leitner",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-06",
     "Status": "Not started"
   },
@@ -314,7 +314,7 @@
     "Title": "Weekly sync (next: Wed 21 Oct 13:00 Geneva); add AeHIN and Mark to invite",
     "Scope_Notes": "Sub-task of JOINT-01 (All).  [Nawi technical tracker A5]",
     "Owner": "Carl Leitner, Fred Hersch",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-21",
     "Status": "In progress"
   },
@@ -323,8 +323,8 @@
     "Track": "Technical",
     "Workstream": "Test Data & Keys",
     "Title": "Request real vaccine lists from two countries (via AeHIN) so the code-set discrepancy is concrete",
-    "Scope_Notes": "Sub-task of TECH-03 (J1–J3). Carl suggestion 16 Oct [Nawi technical tracker A6]",
-    "Owner": "Carl Leitner",
+    "Scope_Notes": "Sub-task of TECH-03 (J1–J3). Carl suggestion 16 Oct [Nawi technical tracker A6] Reassigned 21 Oct: RM asks Alvin Marcelo directly, cc CL, RR, Nat.",
+    "Owner": "Roy Munge",
     "Priority": "P2",
     "DueDate": "",
     "Status": "Not started"
@@ -334,22 +334,22 @@
     "Track": "Technical",
     "Workstream": "Test Data & Keys",
     "Title": "Single-vaccine DVC / IPS example from existing test-bed data; confirm it matches a newborn first-dose story",
-    "Scope_Notes": "Sub-task of TECH-03 (J1). Hajj / Rexel examples; content embedded in QR, no portal lookup [Nawi technical tracker B1]",
+    "Scope_Notes": "Sub-task of TECH-03 (J1). Hajj / Rexel examples; content embedded in QR, no portal lookup [Nawi technical tracker B1] Delivered 23 Oct in smart-trust qr_code_generation.md (two DVCs, HepB and BCG, DEV participant XXR).",
     "Owner": "Ritika Rawlani",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-19",
-    "Status": "In progress"
+    "Status": "Done"
   },
   {
     "ID": "TECH-03.4",
     "Track": "Technical",
     "Workstream": "Test Data & Keys",
     "Title": "Document QR-generation steps",
-    "Scope_Notes": "Sub-task of TECH-03 (J1).  [Nawi technical tracker B2]",
+    "Scope_Notes": "Sub-task of TECH-03 (J1).  [Nawi technical tracker B2] Delivered 23 Oct in smart-trust qr_code_generation.md (two DVCs, HepB and BCG, DEV participant XXR).",
     "Owner": "Ritika Rawlani",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-19",
-    "Status": "Not started"
+    "Status": "Done"
   },
   {
     "ID": "TECH-03.5",
@@ -358,7 +358,7 @@
     "Title": "Requirements doc from Hajj / Rexel scenarios (basis for verification API requirements)",
     "Scope_Notes": "Sub-task of TECH-03 (J1). Reviewed Monday per Carl [Nawi technical tracker B3]",
     "Owner": "Ritika Rawlani",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-19",
     "Status": "Not started"
   },
@@ -369,7 +369,7 @@
     "Title": "Generation tool for test DVCs if existing data does not fit the story",
     "Scope_Notes": "Sub-task of TECH-03 (J1).  Depends on: B1. [Nawi technical tracker B4]",
     "Owner": "Carl Leitner",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-23",
     "Status": "Not started"
   },
@@ -391,7 +391,7 @@
     "Title": "Pre-printed QR cards + optional pre-recorded issuance video",
     "Scope_Notes": "Sub-task of TECH-02 (J1). Issuance is simulated, not live Depends on: B1. [Nawi technical tracker B6]",
     "Owner": "Carl Leitner, Ritika Rawlani",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-24",
     "Status": "Not started"
   },
@@ -402,7 +402,7 @@
     "Title": "Provision DEV trust-list keys / PKI material for demo devices",
     "Scope_Notes": "Sub-task of TECH-03 (J3). https://smart.who.int/trust/endpoints.html [Nawi technical tracker B7]",
     "Owner": "Carl Leitner",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-22",
     "Status": "Not started"
   },
@@ -413,7 +413,7 @@
     "Title": "Pull verifiers repo (last Rexel update) and confirm it runs",
     "Scope_Notes": "Sub-task of TECH-04 (J3, J4.1). gdhcn-validator [Nawi technical tracker C1]",
     "Owner": "Ritika Rawlani",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-19",
     "Status": "Not started"
   },
@@ -424,7 +424,7 @@
     "Title": "Review API requirements doc; identify gaps for the library",
     "Scope_Notes": "Sub-task of TECH-04 (J3, J4.1).  Depends on: B3. [Nawi technical tracker C2]",
     "Owner": "Carl Leitner, Jose Costa Teixeira, Roy Munge",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-20",
     "Status": "Not started"
   },
@@ -435,7 +435,7 @@
     "Title": "Transcode Python validator REST API to Kotlin",
     "Scope_Notes": "Sub-task of TECH-04 (J3, J4.1).  Depends on: C2. [Nawi technical tracker C3]",
     "Owner": "Jose Costa Teixeira",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-22",
     "Status": "Not started"
   },
@@ -446,7 +446,7 @@
     "Title": "Deliver Kotlin multiplatform QR/HCERT extraction + DVC and VHL-manifest verification library to Nawi for testing",
     "Scope_Notes": "Sub-task of TECH-04 (J3, J4.1). 'mid next week' per Carl Depends on: C3. [Nawi technical tracker C4]",
     "Owner": "Carl Leitner",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-23",
     "Status": "Not started"
   },
@@ -457,7 +457,7 @@
     "Title": "QR reader component working cross-platform (Android; web on tablet)",
     "Scope_Notes": "Sub-task of TECH-05 (J2, J3, J4.1). Fred: priority [Nawi technical tracker C5]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-27",
     "Status": "Not started"
   },
@@ -468,7 +468,7 @@
     "Title": "Integrate verification library into OHS Player (J3 DVC verify; J4.1 manifest verify) with cached keys for offline",
     "Scope_Notes": "Sub-task of TECH-06 (J3, J4.1).  Depends on: C4, C5. [Nawi technical tracker C6]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-04",
     "Status": "Not started"
   },
@@ -476,10 +476,10 @@
     "ID": "TECH-09.3",
     "Track": "Technical",
     "Workstream": "Implementation Guide",
-    "Title": "Terminology: ValueSets country-a-vaccines / country-b-vaccines, deliberately unmapped, one shared vaccine coded differently",
-    "Scope_Notes": "Sub-task of TECH-09 (J1–J3).  Depends on: A2. [Nawi technical tracker D1]",
+    "Title": "Terminology package: WHO PreQual product and vaccine-type CodeSystems, Lao PDR schedule-dose ValueSet, deliberately partial type-to-dose ConceptMap",
+    "Scope_Notes": "Sub-task of TECH-09 (J1-J3). Reframed 23 Oct: the DVC carries a WHO PreQual product ID; type derived locally; only type-to-dose mapping is national. No Thai code system. [Nawi technical tracker D1]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-30",
     "Status": "Not started"
   },
@@ -490,7 +490,7 @@
     "Title": "Community config: household roster, newborn registration, QR decode (no verify), Immunization as unverified (primarySource=false, reportOrigin), referral ServiceRequest to seeded facility",
     "Scope_Notes": "Sub-task of TECH-05 (J2).  Depends on: C5, D1. [Nawi technical tracker D2]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-28",
     "Status": "Not started"
   },
@@ -501,7 +501,7 @@
     "Title": "EHR config (web on tablet / Android): scan, verify, import with Provenance, PlanDefinition/FHIRPath schedule vs Country B rules, reminder Task/Appointment",
     "Scope_Notes": "Sub-task of TECH-06 (J3).  Depends on: C6, D1. [Nawi technical tracker D3]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-04",
     "Status": "Not started"
   },
@@ -512,7 +512,7 @@
     "Title": "Family config: member profiles (Group/RelatedPerson), pull records, one VHL QR per traveller with passcode",
     "Scope_Notes": "Sub-task of TECH-07 (J4.0). Three VHLs / IPS / QRs: mother, father, baby Depends on: E1. [Nawi technical tracker D4]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-10",
     "Status": "Not started"
   },
@@ -523,7 +523,7 @@
     "Title": "Viewer config: scan VHL QR, passcode, fetch manifest, verify, display",
     "Scope_Notes": "Sub-task of TECH-07 (J4.1).  Depends on: C6, E1. [Nawi technical tracker D5]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-10",
     "Status": "Not started"
   },
@@ -534,7 +534,7 @@
     "Title": "Seed data and fixed dates for demo devices",
     "Scope_Notes": "Sub-task of TECH-03 (All).  Depends on: A2, B1. [Nawi technical tracker D6]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-28",
     "Status": "Not started"
   },
@@ -545,7 +545,7 @@
     "Title": "AuditEvent at Info Gateway for verification and VHL fetches",
     "Scope_Notes": "Sub-task of TECH-10 (J3, J4.1).  Depends on: D3, D5. [Nawi technical tracker D7]",
     "Owner": "Nawi engineering",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-12",
     "Status": "Not started"
   },
@@ -578,7 +578,7 @@
     "Title": "Mock VHL issuer: FHIR server exposing VHL endpoints with the three IPS, signed; hosted on Nawi OHS servers",
     "Scope_Notes": "Sub-task of TECH-08 (J4.0, J4.1). Small mock, not Docker-heavy; requirements still production-level Depends on: B1. [Nawi technical tracker E1]",
     "Owner": "Nawi engineering, Jose Costa Teixeira",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-06",
     "Status": "Not started"
   },
@@ -600,7 +600,7 @@
     "Title": "ITB VHL issuer prototype (reference / test environment)",
     "Scope_Notes": "Sub-task of TECH-08 (J4.0, J4.1). Targeted week of 27 Oct [Nawi technical tracker E3]",
     "Owner": "Carl Leitner, WHO",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-30",
     "Status": "Not started"
   },
@@ -611,7 +611,7 @@
     "Title": "Fallback: pre-packaged VHL QR codes handed to Nawi",
     "Scope_Notes": "Sub-task of TECH-08 (J4.1). Used if E1/E3 slip [Nawi technical tracker E4]",
     "Owner": "Carl Leitner, Ritika Rawlani",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "",
     "Status": "Not started"
   },
@@ -622,7 +622,7 @@
     "Title": "Sync with Jing on prior SHL / portable-record work",
     "Scope_Notes": "Sub-task of TECH-07 (J4.0).  [Nawi technical tracker E5]",
     "Owner": "Roy Munge",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-10-21",
     "Status": "Not started"
   },
@@ -655,7 +655,7 @@
     "Title": "Nawi content / code-lab plan (partially assembled kits, steps 3, 7, 11; curated final assembly)",
     "Scope_Notes": "Sub-task of TECH-11 (J5). Initial plan already shared [Nawi technical tracker F1]",
     "Owner": "Roy Munge, Fred Hersch",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-14",
     "Status": "Not started"
   },
@@ -666,7 +666,7 @@
     "Title": "Legacy-system mapping as short tech talks + demos (not a breakout)",
     "Scope_Notes": "Sub-task of TECH-11 (J5).  [Nawi technical tracker F2]",
     "Owner": "Fred Hersch",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "",
     "Status": "Not started"
   },
@@ -677,7 +677,7 @@
     "Title": "Align partner and country demonstration slots (CSIRO, OpenFn, TH, ID, MY, LA, KH)",
     "Scope_Notes": "Sub-task of POL-06 (All). Section 4 of doc [Nawi technical tracker F3]",
     "Owner": "GM, DW, AM",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-12",
     "Status": "Not started"
   },
@@ -688,7 +688,7 @@
     "Title": "Policy-track discussion points: code-set governance, consent (PCF), audit / GDPR-style access, DVC vs ICVP",
     "Scope_Notes": "Sub-task of POL-05 (All).  Depends on: A4. [Nawi technical tracker F4]",
     "Owner": "Carl Leitner, Mark Landry",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-10",
     "Status": "Not started"
   },
@@ -699,7 +699,7 @@
     "Title": "Day 2 interoperability practicum stations and test scripts (source-to-FHIR, use and update, test and exchange; optional ITB test harness)",
     "Scope_Notes": "Sub-task of TECH-12 (J5).  Depends on: F1. [Nawi technical tracker F5]",
     "Owner": "Roy Munge, Carl Leitner",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-18",
     "Status": "Not started"
   },
@@ -710,7 +710,7 @@
     "Title": "Day 2 connected end-to-end demo run-of-show (community referral to clinic verification to cross-border travel)",
     "Scope_Notes": "Sub-task of JOINT-04 (All).  Depends on: D3, D4, D5, E1. [Nawi technical tracker F6]",
     "Owner": "Roy Munge, Carl Leitner, Fred Hersch",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-22",
     "Status": "Not started"
   },
@@ -721,8 +721,118 @@
     "Title": "Full end-to-end technical rehearsal with offline fallbacks and failure recovery",
     "Scope_Notes": "Sub-task of TECH-13 (All).  Depends on: F6. [Nawi technical tracker F7]",
     "Owner": "Roy Munge, Fred Hersch, Carl Leitner",
-    "Priority": "P0",
+    "Priority": "P1",
     "DueDate": "2026-11-25",
     "Status": "Not started"
+  },
+  {
+    "ID": "TECH-04.7",
+    "Track": "Technical",
+    "Workstream": "QR & Crypto Lib",
+    "Title": "Review Carl's Kotlin library project (tools/hcert-kotlin) for anything glaring before further build",
+    "Scope_Notes": "Sub-task of TECH-04. Spec at litlfred.github.io/smart-trust-tools (WIT API, CDDL, requirements, journeys page). [NE-1]",
+    "Owner": "Roy Munge",
+    "Priority": "P1",
+    "DueDate": "2026-10-29",
+    "Status": "In Progress"
+  },
+  {
+    "ID": "TECH-04.8",
+    "Track": "Technical",
+    "Workstream": "QR & Crypto Lib",
+    "Title": "Integrate the HCERT Kotlin library into OHS Player: trust store loading from the GDHCN DEV DID trustlist, cached keys, readUnverified (J2), verify (J3, J4.1), DVCMin to FHIR mapping, QR scan and render",
+    "Scope_Notes": "Sub-task of TECH-04/TECH-06. Rendering, scanning, HTTP, storage and FHIR mapping are the app's per the library's journey coverage page. [NE-1]",
+    "Owner": "Nawi engineering",
+    "Priority": "P1",
+    "DueDate": "2026-11-04",
+    "Status": "Not Started"
+  },
+  {
+    "ID": "TECH-03.8",
+    "Track": "Technical",
+    "Workstream": "Test Data & Keys",
+    "Title": "Share DEV private signing keys for test issuance; keys move into WHO dev infrastructure",
+    "Scope_Notes": "Sub-task of TECH-03. Agreed 21 Oct.",
+    "Owner": "Ritika Rawlani",
+    "Priority": "P1",
+    "DueDate": "2026-10-29",
+    "Status": "In Progress"
+  },
+  {
+    "ID": "TECH-03.9",
+    "Track": "Technical",
+    "Workstream": "Test Data & Keys",
+    "Title": "Publish PR 129 (QR code generation page) once the test country is onboarded by GDHCN support",
+    "Scope_Notes": "Sub-task of TECH-03. RR emails when merged.",
+    "Owner": "Ritika Rawlani",
+    "Priority": "P2",
+    "DueDate": "2026-11-06",
+    "Status": "In Progress"
+  },
+  {
+    "ID": "TECH-09.3",
+    "Track": "Technical",
+    "Workstream": "Implementation Guide",
+    "Title": "Request human-readable product names on PreQualProductIds and a product-to-vaccine-type ConceptMap in the vaxprequal IG",
+    "Scope_Notes": "Sub-task of TECH-09. Lets apps show a name and derive the type offline with no change to the QR.",
+    "Owner": "Roy Munge",
+    "Priority": "P1",
+    "DueDate": "2026-10-30",
+    "Status": "Not Started"
+  },
+  {
+    "ID": "TECH-08.8",
+    "Track": "Technical",
+    "Workstream": "VHL Middleware",
+    "Title": "Fork Diego Kaminker's IPS connectathon journey site as the VaxLink step-by-step payload storyboard",
+    "Scope_Notes": "Sub-task of TECH-08/TECH-01. diegokaminker.github.io/APAC27/teweia-ips-connectathon",
+    "Owner": "Carl Leitner, Roy Munge",
+    "Priority": "P2",
+    "DueDate": "2026-11-06",
+    "Status": "Not Started"
+  },
+  {
+    "ID": "TECH-13.2",
+    "Track": "Technical",
+    "Workstream": "Rehearsal",
+    "Title": "End-to-end alpha of the full flow by 31 October, Postman-level where apps are not ready",
+    "Scope_Notes": "Sub-task of TECH-13. Fred's ask on 21 Oct, to surface technical traps early.",
+    "Owner": "Nawi engineering",
+    "Priority": "P1",
+    "DueDate": "2026-10-31",
+    "Status": "In Progress"
+  },
+  {
+    "ID": "JOINT-01.3",
+    "Track": "Joint",
+    "Workstream": "Governance",
+    "Title": "First pass at the run of show from the two-day generic agenda and the journeys table; FH review, then Mark and Alvin",
+    "Scope_Notes": "Sub-task of JOINT-01/JOINT-02.",
+    "Owner": "Carl Leitner",
+    "Priority": "P1",
+    "DueDate": "2026-10-31",
+    "Status": "In Progress"
+  },
+  {
+    "ID": "JOINT-01.4",
+    "Track": "Joint",
+    "Workstream": "Governance",
+    "Title": "Google group for the planning team on the OHS domain, everyone on the calendar invite",
+    "Scope_Notes": "Sub-task of JOINT-01.",
+    "Owner": "Roy Munge",
+    "Priority": "P2",
+    "DueDate": "2026-10-30",
+    "Status": "Not Started"
+  },
+  {
+    "ID": "JOINT-01.5",
+    "Track": "Joint",
+    "Workstream": "Governance",
+    "Title": "Transfer pre-gdhf-workshop to the nawitech organisation, make it public, enable Pages, add collaborators, create engineering tickets",
+    "Scope_Notes": "Sub-task of JOINT-01. Fred no longer maintains the tracker.",
+    "Owner": "Roy Munge",
+    "Priority": "P1",
+    "DueDate": "2026-10-31",
+    "Status": "In Progress"
   }
 ]
