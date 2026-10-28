@@ -29,16 +29,16 @@ Read first, in this order:
 8. **Test vectors.** The two HC1 strings in the worked example (HepB and BCG, DEV participant XXR, kid 916ffa567c0f44a2) must verify on Android and web; a tampered copy must fail at `signature`.
 
 ## Out of scope
-Issuance (WHO tooling and the mock VHL issuer, NE-6), the Player screens themselves (NE-2 to NE-5), terminology content (NE-7).
+Issuance (WHO tooling and the mock VHL issuer in NE-4), the Player screens themselves (NE-2 to NE-4), terminology content (NE-5).
 
 ## Acceptance
 - Both worked-example certificates verify on an Android tablet and in the web build with the device offline after one trust-list sync.
 - `readUnverified` returns both certificates on a phone that has never synced the trust list.
 - A tampered certificate fails with a typed reason and no payload is shown.
-- A VHL QR from the mock issuer (NE-6) verifies, the manifest fetch with passcode succeeds, and the decrypted IPS renders.
+- A VHL QR from the issuer (NE-4) verifies, the manifest fetch with passcode succeeds, and the decrypted IPS renders.
 - One shared DVCMin-to-FHIR mapper used by all three journeys, with unit tests on the worked example.
 
 ## Dependencies
-Carl's library test target (TECH-04, 23 Oct); DEV keys from Ritika (TECH-03); mock issuer (NE-6) for the VHL path.
+Carl's library test target (TECH-04, 23 Oct); DEV keys from Ritika (TECH-03); VHL issuer (NE-4 Part A) for the VHL path.
 
 Owner: Nawi engineering, with Roy Munge reviewing the library. Parent: TECH-04, TECH-06. Due: 4 Nov for J3; 10 Nov for the VHL path.

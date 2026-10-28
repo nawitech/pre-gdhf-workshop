@@ -10,12 +10,12 @@ One OHS Player facility (EHR) configuration, web build on a tablet (or Android o
 1. **Referral inbox** and child record showing the unverified immunizations from J2.
 2. **Verify** action: scan, `verify` via the library (NE-1) against the cached DEV trust list, show the outcome, the issuing country and the DSC kid before showing any content. A failed verification shows the typed reason and imports nothing.
 3. **Import**: update the two Immunizations to `primarySource` true and attach a `Provenance` (agent: Thai issuing authority; entity: the certificate). Detect a certificate already imported.
-4. **Type and dose mapping**: derive the PreQual vaccine type from the product (ConceptMap from NE-7 if published, local table if not); look up the Lao type-to-dose ConceptMap; where there is no match, present the product name, the proposed dose and a confirm/choose control; on confirmation add the Lao coding as a second `vaccineCode.coding` and record who confirmed and when (an Observation or Provenance; pick one and document it).
-5. **Schedule**: PlanDefinition with FHIRPath conditions over the Immunization history against Lao schedule content (NE-7); show due and overdue; create a Task or Appointment for the next visit.
+4. **Type and dose mapping**: derive the PreQual vaccine type from the product (ConceptMap from NE-5 if published, local table if not); look up the Lao type-to-dose ConceptMap; where there is no match, present the product name, the proposed dose and a confirm/choose control; on confirmation add the Lao coding as a second `vaccineCode.coding` and record who confirmed and when (an Observation or Provenance; pick one and document it).
+5. **Schedule**: PlanDefinition with FHIRPath conditions over the Immunization history against Lao schedule content (NE-5); show due and overdue; create a Task or Appointment for the next visit.
 6. **Audit**: an AuditEvent for every verification attempt through the Info Gateway.
 
 ## Data
-Immunization (updated), Provenance, ImmunizationRecommendation (derived), Task or Appointment, AuditEvent. PlanDefinition, ValueSets and ConceptMap from NE-7.
+Immunization (updated), Provenance, ImmunizationRecommendation (derived), Task or Appointment, AuditEvent. PlanDefinition, ValueSets and ConceptMap from NE-5.
 
 ## Out of scope
 Issuance, the family app, VHL. The clinic may be online or offline; verification must work offline with cached keys.
@@ -27,4 +27,4 @@ Issuance, the family app, VHL. The clinic may be online or offline; verification
 - The schedule lists the next due doses and a follow-up exists.
 - An AuditEvent exists for each verification.
 
-Owner: Nawi engineering (Jing Tang reviewing schedule content). Parent: TECH-06. Due: 4 Nov. Depends on NE-1, NE-2 (incoming data), NE-7.
+Owner: Nawi engineering (Jing Tang reviewing schedule content). Parent: TECH-06. Due: 4 Nov. Depends on NE-1, NE-2 (incoming data), NE-5.

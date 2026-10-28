@@ -1,5 +1,5 @@
 ---
-title: "NE-7: Terminology and schedule content package (J1 to J3)"
+title: "NE-5: Terminology and schedule content package (J1 to J3)"
 labels: nawi-engineering, content, ig, TECH-09
 ---
 ## Why this exists

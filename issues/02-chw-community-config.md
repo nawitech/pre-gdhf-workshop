@@ -15,7 +15,7 @@ One OHS Player community configuration (new client directory, say `vaxlink/`, co
 6. **Sync** when back online: Patient, Group, RelatedPerson, Immunization, ServiceRequest in the role's allow-list, scoped to the CHW's catchment.
 
 ## Data
-Resources: Group, RelatedPerson, Patient, Immunization x2, ServiceRequest, Location (clinic). Seed: the household, the CHW practitioner and role, the clinic Location. Terminology from NE-7. Dates are placeholders until final certificates are generated.
+Resources: Group, RelatedPerson, Patient, Immunization x2, ServiceRequest, Location (clinic). Seed: the household, the CHW practitioner and role, the clinic Location. Terminology from NE-5. Dates are placeholders until final certificates are generated.
 
 ## Out of scope
 Signature verification, schedule logic, any mapping of codes, SMS. The device may be offline for the whole journey.
@@ -26,4 +26,4 @@ Signature verification, schedule logic, any mapping of codes, SMS. The device ma
 - A referral exists for the clinic and the child shows as needing verification.
 - After reconnecting, the clinic configuration (NE-3) sees the child, the two Immunizations and the referral.
 
-Owner: Nawi engineering. Parent: TECH-05. Due: 28 Oct (demo-able), hardened by 4 Nov. Depends on NE-1 (readUnverified, QR scan) and NE-7 (PreQual CodeSystem).
+Owner: Nawi engineering. Parent: TECH-05. Due: 28 Oct (demo-able), hardened by 4 Nov. Depends on NE-1 (readUnverified, QR scan) and NE-5 (PreQual CodeSystem).
