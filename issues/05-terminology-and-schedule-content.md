@@ -6,7 +6,7 @@ labels: nawi-engineering, content, ig, TECH-09
 The vignette's governance story is a terminology gap, so the terminology has to be precise. The DVC identifies a vaccine by WHO PreQual product ID (required binding). Schedules run on vaccine types and doses. Three layers, two of them WHO's, one national:
 1. WHO PreQualProductIds (what the certificate carries), https://worldhealthorganization.github.io/smart-pcmt-vaxprequal/CodeSystem-PreQualProductIds.html
 2. WHO PreQualVaccineType (HepB, BCG, bOPV and so on), https://worldhealthorganization.github.io/smart-pcmt-vaxprequal/CodeSystem-PreQualVaccineType.html
-3. The Lao PDR schedule-dose ValueSet and the national ConceptMap from vaccine type to schedule dose, which is deliberately partial so the Thai product has no match.
+3. The Lao PDR schedule-dose ValueSet and the national ConceptMap from vaccine type to schedule dose, which is deliberately partial: HepB maps to HB0-24H, BCG has no target.
 
 No Thai code system is needed.
 
@@ -21,7 +21,7 @@ No Thai code system is needed.
 ## Acceptance
 - The Player build passes its config gates with these artefacts in place.
 - Scanning the worked-example certificates in NE-2 shows product names.
-- In NE-3 the HepB product resolves to type HepB, finds no Lao dose entry, and the confirm step appears; BCG resolves and maps without a prompt (so the two cards show both paths).
+- In NE-3 the HepB product resolves to type HepB and maps to HB0-24H without a prompt; BCG resolves to type BCG, finds no Lao target, and the confirm step appears (so the two cards show both paths). Full current text: issue #7.
 - The PlanDefinition produces the expected due list for the demo child.
 
 Owner: Nawi engineering (Jing Tang reviewing), Roy Munge for the WHO requests. Parent: TECH-09. Due: 30 Oct for a first cut, 6 Nov final.

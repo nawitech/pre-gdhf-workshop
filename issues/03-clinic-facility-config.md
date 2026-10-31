@@ -23,7 +23,7 @@ Issuance, the family app, VHL. The clinic may be online or offline; verification
 ## Acceptance
 - Both worked-example cards verify offline on the tablet; a tampered card fails and imports nothing.
 - After import the Immunizations carry the PreQual coding unchanged plus a Provenance.
-- The Hepatitis B product triggers the confirm step; after confirmation the Lao coding is present as a second coding and the confirmation is recorded.
+- The Hepatitis B product maps automatically to HB0-24H, recorded as automatic; the BCG product triggers the confirm step, and after confirmation the chosen Lao coding is present as a second coding and the confirmation is recorded. Full current text: issue #3.
 - The schedule lists the next due doses and a follow-up exists.
 - An AuditEvent exists for each verification.
 
